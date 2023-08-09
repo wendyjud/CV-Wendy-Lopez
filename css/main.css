@@ -1,0 +1,28 @@
+
+.proof{
+    background-color: aqua;
+}
+
+
+.circle-image {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 200px; /* Ancho deseado del área recortado */
+    height: 200px; /* Alto deseado del área recortado */
+    
+  
+  }
+  .circle-image img {
+    width: 100%; /* Ajusta el ancho de la imagen al ancho del contenedor */
+    height: auto; /* Ajusta automáticamente la altura de la imagen para mantener la proporción */
+    display: block; /* Evita el espacio adicional debajo de la imagen */
+  }
+
+  .row-exp{
+    background-color: #f8f8f8;
+  }
+
+  .one{
+    background-color: blueviolet;
+  }
